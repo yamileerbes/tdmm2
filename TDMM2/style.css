@@ -1,0 +1,195 @@
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*PANTALLA 1*/
+
+header{
+   display: grid;
+  grid-template-columns: 1fr 1fr;
+   padding-left: 3.1%;
+    color:rgba(245, 247, 231, 1);
+    margin: 0px;
+    height: 954px;
+    background:linear-gradient(to right, rgba(108, 45, 204, 1), rgba(23, 29, 119, 1),rgba(0, 4, 0, 1));
+}
+h1{
+ font-family: "Nunito", sans-serif;
+  font-size: 90px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  padding-top: 0;
+}
+p,a,h3{
+  font-family: "Lexend", sans-serif;
+  font-size: 48px;
+  padding: 1%;
+  margin: 0;
+}
+
+.contpan1{
+margin: 0,0;
+  font-size: larger;
+  max-width: 868px;
+ display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cont2pan1{
+ display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-image: url("IMAGENES/nebulosa.png");  
+  background-repeat: no-repeat;
+}
+
+#libro {
+  max-width: 80%; 
+  height: auto;
+}
+
+#acento{
+    color:rgba(72, 213, 177, 1) ;
+    margin-top: 0;
+}
+
+.container {
+      padding: 20px;
+       font-size: 16px;
+    }
+
+    .toggle-button {
+      padding: 10px 20px;
+      background-color: rgba(72, 213, 177, 1);
+      color:rgba(245, 247, 231, 1);
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 330px;
+      height: 66px;
+        font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    }
+  
+
+    .form-container {
+      margin-top: 20px;
+      display: none;
+    }
+
+    .form-container input,
+    .form-container select {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0;
+      padding: 8px;
+      width: 100%;
+      max-width: 300px;
+      box-sizing: border-box;
+       border-radius: 10px;
+    }
+
+
+/*PANTALLA 2 */
+
+   /* PANTALLA 2 */
+
+#sec1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* tres columnas iguales */
+  height: 954px;
+  background: linear-gradient(to bottom, rgba(0, 4, 0, 1), rgba(23, 29, 119, 1), rgba(0, 4, 0, 1));
+  color: rgba(245, 247, 231, 1);
+  padding: 0px;
+  margin: 0px;
+}
+ul{
+  font-size: 40px;
+   font-family: "Lexend", sans-serif;
+
+}
+
+/* BLOQUES DE TEXTO INDIVIDUALES (los 3 temas principales) */
+#cont1pan2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+
+#cont2pan2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-top: 5%;
+}
+
+#cont3pan2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0px;
+}
+
+ #subtitulo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align:left;
+
+}
+
+
+
+
+
+
+
+
+
+
+   #sec2{
+    color: rgba(245, 247, 231, 1);
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 954px;
+  background:linear-gradient(to bottom, rgba(0, 4, 0, 1), rgba(23, 29, 119, 1),rgba(0, 4, 0, 1));
+    }
+   #sec3{
+    color: rgba(245, 247, 231, 1);
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 954px;
+  background:linear-gradient(to bottom, rgba(0, 4, 0, 1), rgba(23, 29, 119, 1),rgba(0, 4, 0, 1));
+    }
+    
+   #sec4{
+    color: rgba(245, 247, 231, 1);
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 954px;
+  background:linear-gradient(to bottom, rgba(0, 4, 0, 1), rgba(23, 29, 119, 1),rgba(0, 4, 0, 1));
+    }
+   #sec5{
+    color: rgba(245, 247, 231, 1);
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 954px;
+  background:linear-gradient(to bottom, rgba(0, 4, 0, 1), rgba(23, 29, 119, 1),rgba(0, 4, 0, 1));
+    }
