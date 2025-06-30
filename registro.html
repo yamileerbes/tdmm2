@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>registro</title>
+</head>
+<body>
+     <header>
+<nav>
+     <a href="index.html"> <img src="Imagenes/logo.png" alt="logo indiehoy"></a>
+<a href="musica.html"><button ><img src="Imagenes/botonmusica.png" alt=""></button></a>
+  <a href="top10.html"><button><img src="Imagenes/botontop.png" alt=""> </button></a>
+  <a href="cine.html"><button ><img src="Imagenes/botoncine.png" alt=""> </button></a>
+  <a href="registro.html"><button ><img src="Imagenes/botonregistrar.png" alt=""> </button></a>
+  <img src="Imagenes/home/redes.png" alt="">
+</nav>
+    </header>
+
+
+<div class="contenedor">
+    <img class="principal" src="https://via.placeholder.com/300x150" alt="Imagen rectangular">
+
+    <div class="texto-negrita">Texto centrado y en negrita</div>
+
+    <!-- Inputs -->
+    <input class="input" type="text" placeholder="Texto gris 1">
+
+<div class="input-con-anexo">
+  <input class="input" type="text" placeholder="Texto gris 2">
+  <span>Fijo</span>
+</div>
+
+    <input class="input" type="text" placeholder="Texto gris 3">
+    <input class="input" type="text" placeholder="Texto gris 4">
+
+    <!-- Punto que cambia de color y texto -->
+    <div class="fila-punto">
+      <div class="punto-btn" id="punto" onclick="activarPunto()"> </div>
+      <div class="texto-izquierda" id="textoPunto">He leído y acepto <span style="color: rgb(41, 54, 230);"> Términos de servicio, Política de privacidad, Acuerdo de usuario de Indiehoy y Política de Indiehoy.</span></div>
+    </div>
+
+    <!-- Botón -->
+    <button class="boton">Enviar</button>
+
+    <!-- Texto final -->
+    <div class="texto-final">Texto final centrado</div>
+    <div class="texto-final-pequeño">Texto más pequeño debajo</div>
+
+    <!-- Tres imágenes alineadas -->
+    <div class="imagenes-finales">
+      <img src="https://via.placeholder.com/80x80" alt="img1">
+      <img src="https://via.placeholder.com/80x80" alt="img2">
+      <img src="https://via.placeholder.com/80x80" alt="img3">
+    </div>
+  </div>
+
+  <script>
+    function activarPunto() {
+      const punto = document.getElementById('punto');
+      const texto = document.getElementById('textoPunto');
+
+      if (punto.classList.contains('activo')) {
+        punto.classList.remove('activo');
+        punto.textContent = '';
+        texto.textContent = 'He leído y acepto <span style="color: rgb(41, 54, 230);"> Términos de servicio, Política de privacidad, Acuerdo de usuario de Indiehoy y Política de Indiehoy.</span></div>';
+      } else {
+        punto.classList.add('activo');
+        punto.textContent = 'A';
+        texto.textContent = 'He leído y acepto <span style="color: rgb(41, 54, 230);"> Términos de servicio, Política de privacidad, Acuerdo de usuario de Indiehoy y Política de Indiehoy.</span></div>';
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>
